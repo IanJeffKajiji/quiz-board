@@ -15,16 +15,16 @@
      <div id="blanks">
       <form>
         <div class="form-group">
-          <label for="candidate">Candidate's Name:</label>
+          <label>Candidate's Name:</label>
           <input id="candidate" class="form-control" type="text">
         </div>
+      </div>
         <div class="form-group">
          <label for="date">Date of test:</label>
          <input id="date" class="form-control" type="date">
         </div>
-      <button type="submit" class="btn">Show text!</button>
+      <button type="submit" class="btn btn-warning">Show text!</button>
       </form>
-      </div>
       <br>
       <div id="story">
         <p>Welcome <span class="candidate"></span> to the test.Get ready to evaluate yourself</p>
@@ -32,8 +32,7 @@
     <div class="jumbotron">
     <h2>Instructions:<h2>
       <p>Below are test questions, you are required to give only one answer by checking the box for the correct answer</p>
-      </div>
-      <h1>QUIZ-BOARD<h1>
+      <h3>QUIZ-BOARD<h3>
       <form>
         <label>1.What are variables used for in Javascript?</label><br>
         <input type="radio" name="quiz1" value="05">Stores numbers dates or other values<br>
@@ -67,6 +66,14 @@
         <input type="radio" name="quiz8" value="00">lastout()<br>
         <input type="radio" name="quiz8" value="00">get()<br>
         <input type="radio" name="quiz8" value="05">pop()<br>
+        <br>
+       <button type="submit" class="btn btn-success">Submit answers</button>
+       <button type="reset" class="btn btn-danger">reset quiz</button>
+       <br>
+       <div id="marks"></div>
+       <div id="comment"></div>
+      </form>
+   </div>
   </div>
 </body>
 </html>
