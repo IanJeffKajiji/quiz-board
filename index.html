@@ -4,7 +4,7 @@
   <title>Quiz-Board</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -19,10 +19,6 @@
           <input id="candidate" class="form-control" type="text">
         </div>
       </div>
-        <div class="form-group">
-         <label for="date">Date of test:</label>
-         <input id="date" class="form-control" type="date">
-        </div>
       <button type="submit" class="btn btn-warning">Show text!</button>
       </form>
       <br>
@@ -33,12 +29,13 @@
     <h2>Instructions:<h2>
       <p>Below are test questions, you are required to give only one answer by checking the box for the correct answer</p>
       <h3>QUIZ-BOARD<h3>
-      <form>
+      <div id="quizzy">
+      <form id="frm">
         <label>1.What are variables used for in Javascript?</label><br>
         <input type="radio" name="quiz1" value="05">Stores numbers dates or other values<br>
         <input type="radio" name="quiz1" value="00">Varying randomly<br>
         <input type="radio" name="quiz1" value="00">None of the above<br>
-        <label>2.Which of the following are capabilities of functions in Javascript</label>
+        <label>2.Which of the following are capabilities of functions in Javascript</label><br>
         <input type="radio" name="quiz2" value="00">Return a value<br>
         <input type="radio" name="quiz2" value="05">Accept parameters<br>
         <input type="radio" name-"quiz2" value="00">All the above<br>
@@ -73,6 +70,7 @@
        <div id="marks"></div>
        <div id="comment"></div>
       </form>
+    </div>
    </div>
   </div>
 </body>
