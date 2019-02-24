@@ -14,10 +14,12 @@
      </div>
      <div id="blanks">
       <form>
+        <div class="col-md-6">
         <div class="form-group">
           <label>Candidate's Name:</label>
           <input id="candidate" class="form-control" type="text">
         </div>
+      </div>
       </div>
       <button type="submit" class="btn btn-warning">Show text!</button>
       </form>
@@ -29,46 +31,86 @@
     <h2>Instructions:<h2>
       <p>Below are test questions, you are required to give only one answer by checking the box for the correct answer</p>
       <h3>QUIZ-BOARD<h3>
+      </div>
       <div id="quizzy">
       <form id="frm">
+        <div class="row">
+          <div class="col-md-6">
+      <div class="panel-group">
+      <div class="well well-sm">
+        <div class="panel-heading"><h2 class="bg-info">QUIZ 1</div>
         <label>1.What are variables used for in Javascript?</label><br>
         <input type="radio" name="quiz1" value="05">Stores numbers dates or other values<br>
         <input type="radio" name="quiz1" value="00">Varying randomly<br>
         <input type="radio" name="quiz1" value="00">None of the above<br>
+        <div class="panel-footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+      </div>
+  </div>
+      <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 2</div>
         <label>2.Which of the following are capabilities of functions in Javascript</label><br>
         <input type="radio" name="quiz2" value="00">Return a value<br>
         <input type="radio" name="quiz2" value="05">Accept parameters<br>
         <input type="radio" name-"quiz2" value="00">All the above<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+     </div>
+     <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 3</div>
         <label>3.Inside which HTML element do we put the Javascript link?</label><br>
         <input type="radio" name="quiz3" value="00">JS<br>
         <input type="radio" name="quiz3" value="00">Javascript<br>
         <input type="radio" name="quiz3" value="05">script<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+    </div>
+     <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 4</div>
         <label>4.Which is the correct way to write a javascript array</label><br>
         <input type="radio" name="quiz4" value="00">var txt = new Array(1:"tim",2:"kim",3:"jim")<br>
         <input type="radio" name="quiz4" value="00">var txt = new Array="tim","kim","jim<br>
         <input type="radio" name="quiz4" value="05">var txt = new Array("tim","kim","jim")<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+    </div>
+    <div class="well well-sm">
+        <div class="panel panel-heading"><h2 class="bg-info">QUIZ 5</div>
         <label>5.How to create a Date object in JavaScript?</label><br>
         <input type="radio" name="quiz5" value="05">dateObjectName = new Date([parameters])<br>
         <input type="radio" name="quiz5" value="00">dateObjectName Date([parameters])<br>
         <input type="radio" name="quiz5" value="00">dateObjectName := new Date([parameters])<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+    </div>
+     <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 6</div>
         <label>6.Which of the following best describes JavaScript?</label><br>
         <input type="radio" name="quiz6" value="00">a low-level programming language<br>
         <input type="radio" name="quiz6" value="00">a compiled scripting language.<br>
         <input type="radio" name="quiz6" value="05">an object-oriented scripting language<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+      </div>
+      <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 7</div>
         <label>7.Which of the following is not a valid JavaScript variable name?</label><br>
         <input type="radio" name="quiz7" value="00">_first_and_last_names<br>
         <input type="radio" name="quiz7" value="05">2names<br>
         <input type="radio" name="quiz7" value="00">FirstAndLast<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+    </div>
+    <div class="well well-sm">
+        <div class="panel heading"><h2 class="bg-info">QUIZ 8</div>
         <label>8.Which built-in method removes the last element from an array and returns that element?</label><br>
         <input type="radio" name="quiz8" value="00">lastout()<br>
         <input type="radio" name="quiz8" value="00">get()<br>
         <input type="radio" name="quiz8" value="05">pop()<br>
+        <div class="panel footer"><h5 class="bg-danger">Complete each quiz to procede</div>
+      </div>
+    </div>
+    </div>
         <br>
        <button type="submit" class="btn btn-success">Submit answers</button>
        <button type="reset" class="btn btn-danger">reset quiz</button>
        <br>
        <div id="marks"></div>
        <div id="comment"></div>
+     </div>
       </form>
     </div>
    </div>
